@@ -1,0 +1,20 @@
+const COLOR = {
+  PURPLE: '#86006a',
+  RED: '#DC3545',
+  GOLD: '#C6A246',
+  BLACK: '#2C343D',
+  LIGHT_GRAY: '#F0F0F0',
+  GRAY: '#AAA',
+  WHITE: 'white'
+};
+
+const THEME = {
+  ...COLOR,
+  PRIMARY: COLOR.PURPLE,
+  SECONDARY: COLOR.GOLD,
+  DISABLED: COLOR.GRAY,
+  WARNING: COLOR.RED,
+  TEXT_DEFAULT: COLOR.BLACK
+};
+
+export default THEME;
